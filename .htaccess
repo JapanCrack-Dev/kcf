@@ -1,4 +1,5 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-Redirect permanent ./discord.html https://discord.gg/XSSMKZ8XFF
+RewirteEngine on
+Redirect permanent https://japancrack-dev/discord.html https://discord.gg/XSSMKZ8XFF
